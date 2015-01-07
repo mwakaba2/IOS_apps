@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD19099D1A3B89AB00D2ABCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19099C1A3B89AB00D2ABCB /* AppDelegate.swift */; };
+		DD19099F1A3B89AB00D2ABCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19099E1A3B89AB00D2ABCB /* ViewController.swift */; };
+		DD1909A21A3B89AB00D2ABCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1909A01A3B89AB00D2ABCB /* Main.storyboard */; };
+		DD1909A41A3B89AB00D2ABCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1909A31A3B89AB00D2ABCB /* Images.xcassets */; };
+		DD1909A71A3B89AB00D2ABCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD1909A51A3B89AB00D2ABCB /* LaunchScreen.xib */; };
+		DD1909B31A3B89AB00D2ABCB /* Dr_PocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1909B21A3B89AB00D2ABCB /* Dr_PocketTests.swift */; };
+		DD1909C71A3B94BE00D2ABCB /* gr_winged_shoes-58.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1909C21A3B94BE00D2ABCB /* gr_winged_shoes-58.png */; };
+		DD1909C81A3B94BE00D2ABCB /* gr_winged_shoes-80.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1909C31A3B94BE00D2ABCB /* gr_winged_shoes-80.png */; };
+		DD1909C91A3B94BE00D2ABCB /* gr_winged_shoes-87.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1909C41A3B94BE00D2ABCB /* gr_winged_shoes-87.png */; };
+		DD1909CA1A3B94BE00D2ABCB /* gr_winged_shoes-120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1909C51A3B94BE00D2ABCB /* gr_winged_shoes-120.png */; };
+		DD1909CB1A3B94BE00D2ABCB /* gr_winged_shoes-180.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1909C61A3B94BE00D2ABCB /* gr_winged_shoes-180.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD1909AD1A3B89AB00D2ABCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD19098F1A3B89AB00D2ABCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD1909961A3B89AB00D2ABCB;
+			remoteInfo = Dr.Pocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD1909971A3B89AB00D2ABCB /* Dr.Pocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dr.Pocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD19099B1A3B89AB00D2ABCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD19099C1A3B89AB00D2ABCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD19099E1A3B89AB00D2ABCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD1909A11A3B89AB00D2ABCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD1909A31A3B89AB00D2ABCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD1909A61A3B89AB00D2ABCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD1909AC1A3B89AB00D2ABCB /* Dr.PocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dr.PocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1909B11A3B89AB00D2ABCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1909B21A3B89AB00D2ABCB /* Dr_PocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dr_PocketTests.swift; sourceTree = "<group>"; };
+		DD1909C21A3B94BE00D2ABCB /* gr_winged_shoes-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_winged_shoes-58.png"; sourceTree = "<group>"; };
+		DD1909C31A3B94BE00D2ABCB /* gr_winged_shoes-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_winged_shoes-80.png"; sourceTree = "<group>"; };
+		DD1909C41A3B94BE00D2ABCB /* gr_winged_shoes-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_winged_shoes-87.png"; sourceTree = "<group>"; };
+		DD1909C51A3B94BE00D2ABCB /* gr_winged_shoes-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_winged_shoes-120.png"; sourceTree = "<group>"; };
+		DD1909C61A3B94BE00D2ABCB /* gr_winged_shoes-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_winged_shoes-180.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD1909941A3B89AB00D2ABCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1909A91A3B89AB00D2ABCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD19098E1A3B89AB00D2ABCB = {
+			isa = PBXGroup;
+			children = (
+				DD1909991A3B89AB00D2ABCB /* Dr.Pocket */,
+				DD1909AF1A3B89AB00D2ABCB /* Dr.PocketTests */,
+				DD1909981A3B89AB00D2ABCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD1909981A3B89AB00D2ABCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD1909971A3B89AB00D2ABCB /* Dr.Pocket.app */,
+				DD1909AC1A3B89AB00D2ABCB /* Dr.PocketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD1909991A3B89AB00D2ABCB /* Dr.Pocket */ = {
+			isa = PBXGroup;
+			children = (
+				DD19099C1A3B89AB00D2ABCB /* AppDelegate.swift */,
+				DD19099E1A3B89AB00D2ABCB /* ViewController.swift */,
+				DD1909A01A3B89AB00D2ABCB /* Main.storyboard */,
+				DD1909A31A3B89AB00D2ABCB /* Images.xcassets */,
+				DD1909A51A3B89AB00D2ABCB /* LaunchScreen.xib */,
+				DD19099A1A3B89AB00D2ABCB /* Supporting Files */,
+			);
+			path = Dr.Pocket;
+			sourceTree = "<group>";
+		};
+		DD19099A1A3B89AB00D2ABCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD1909C21A3B94BE00D2ABCB /* gr_winged_shoes-58.png */,
+				DD1909C31A3B94BE00D2ABCB /* gr_winged_shoes-80.png */,
+				DD1909C41A3B94BE00D2ABCB /* gr_winged_shoes-87.png */,
+				DD1909C51A3B94BE00D2ABCB /* gr_winged_shoes-120.png */,
+				DD1909C61A3B94BE00D2ABCB /* gr_winged_shoes-180.png */,
+				DD19099B1A3B89AB00D2ABCB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD1909AF1A3B89AB00D2ABCB /* Dr.PocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD1909B21A3B89AB00D2ABCB /* Dr_PocketTests.swift */,
+				DD1909B01A3B89AB00D2ABCB /* Supporting Files */,
+			);
+			path = Dr.PocketTests;
+			sourceTree = "<group>";
+		};
+		DD1909B01A3B89AB00D2ABCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD1909B11A3B89AB00D2ABCB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD1909961A3B89AB00D2ABCB /* Dr.Pocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1909B61A3B89AB00D2ABCB /* Build configuration list for PBXNativeTarget "Dr.Pocket" */;
+			buildPhases = (
+				DD1909931A3B89AB00D2ABCB /* Sources */,
+				DD1909941A3B89AB00D2ABCB /* Frameworks */,
+				DD1909951A3B89AB00D2ABCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dr.Pocket;
+			productName = Dr.Pocket;
+			productReference = DD1909971A3B89AB00D2ABCB /* Dr.Pocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD1909AB1A3B89AB00D2ABCB /* Dr.PocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1909B91A3B89AB00D2ABCB /* Build configuration list for PBXNativeTarget "Dr.PocketTests" */;
+			buildPhases = (
+				DD1909A81A3B89AB00D2ABCB /* Sources */,
+				DD1909A91A3B89AB00D2ABCB /* Frameworks */,
+				DD1909AA1A3B89AB00D2ABCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD1909AE1A3B89AB00D2ABCB /* PBXTargetDependency */,
+			);
+			name = Dr.PocketTests;
+			productName = Dr.PocketTests;
+			productReference = DD1909AC1A3B89AB00D2ABCB /* Dr.PocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD19098F1A3B89AB00D2ABCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = teamGHD;
+				TargetAttributes = {
+					DD1909961A3B89AB00D2ABCB = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 6XPMWWVS52;
+					};
+					DD1909AB1A3B89AB00D2ABCB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DD1909961A3B89AB00D2ABCB;
+					};
+				};
+			};
+			buildConfigurationList = DD1909921A3B89AB00D2ABCB /* Build configuration list for PBXProject "Dr.Pocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD19098E1A3B89AB00D2ABCB;
+			productRefGroup = DD1909981A3B89AB00D2ABCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD1909961A3B89AB00D2ABCB /* Dr.Pocket */,
+				DD1909AB1A3B89AB00D2ABCB /* Dr.PocketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD1909951A3B89AB00D2ABCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1909CA1A3B94BE00D2ABCB /* gr_winged_shoes-120.png in Resources */,
+				DD1909A21A3B89AB00D2ABCB /* Main.storyboard in Resources */,
+				DD1909A71A3B89AB00D2ABCB /* LaunchScreen.xib in Resources */,
+				DD1909C81A3B94BE00D2ABCB /* gr_winged_shoes-80.png in Resources */,
+				DD1909C71A3B94BE00D2ABCB /* gr_winged_shoes-58.png in Resources */,
+				DD1909C91A3B94BE00D2ABCB /* gr_winged_shoes-87.png in Resources */,
+				DD1909A41A3B89AB00D2ABCB /* Images.xcassets in Resources */,
+				DD1909CB1A3B94BE00D2ABCB /* gr_winged_shoes-180.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1909AA1A3B89AB00D2ABCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD1909931A3B89AB00D2ABCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD19099F1A3B89AB00D2ABCB /* ViewController.swift in Sources */,
+				DD19099D1A3B89AB00D2ABCB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1909A81A3B89AB00D2ABCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1909B31A3B89AB00D2ABCB /* Dr_PocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD1909AE1A3B89AB00D2ABCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD1909961A3B89AB00D2ABCB /* Dr.Pocket */;
+			targetProxy = DD1909AD1A3B89AB00D2ABCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD1909A01A3B89AB00D2ABCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD1909A11A3B89AB00D2ABCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD1909A51A3B89AB00D2ABCB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD1909A61A3B89AB00D2ABCB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD1909B41A3B89AB00D2ABCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD1909B51A3B89AB00D2ABCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD1909B71A3B89AB00D2ABCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dr.Pocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD1909B81A3B89AB00D2ABCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dr.Pocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD1909BA1A3B89AB00D2ABCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Dr.PocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dr.Pocket.app/Dr.Pocket";
+			};
+			name = Debug;
+		};
+		DD1909BB1A3B89AB00D2ABCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Dr.PocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dr.Pocket.app/Dr.Pocket";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD1909921A3B89AB00D2ABCB /* Build configuration list for PBXProject "Dr.Pocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1909B41A3B89AB00D2ABCB /* Debug */,
+				DD1909B51A3B89AB00D2ABCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1909B61A3B89AB00D2ABCB /* Build configuration list for PBXNativeTarget "Dr.Pocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1909B71A3B89AB00D2ABCB /* Debug */,
+				DD1909B81A3B89AB00D2ABCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1909B91A3B89AB00D2ABCB /* Build configuration list for PBXNativeTarget "Dr.PocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1909BA1A3B89AB00D2ABCB /* Debug */,
+				DD1909BB1A3B89AB00D2ABCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD19098F1A3B89AB00D2ABCB /* Project object */;
+}
